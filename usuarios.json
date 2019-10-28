@@ -1,0 +1,4 @@
+[
+    {"nombre":"Leonardo","apellido":"Lopez","usuario":"leonardolopez@live.com.ar","password":"$2y$10$1J110ficjY6KvEQhVC9ogOQQ\/Um\/TOk5Pq19lyRcSu7chy4fI.f\/2","confirmar":"$2y$10$\/AshR7GMXeW3p8AhtuhNt.XH1n4m7PTnasR7qxQaKqRdLBjp4QLv.","ciudad":"Pergamino","provincia":"Buenos Aires","codigopostal":"2700","terminos":"on"},
+    {"nombre":null,"apellido":null,"usuario":"leonardolopez@live.com.ar","password":"$2y$10$OqtNDEBehVEqfi0GVevBmOJING8AqhYfvNnYfreRhp\/mdXMUfGAyi","confirmar":"$2y$10$hQvFRq6\/K\/zYXJI6wdqT6O5uG8Ymd75ahBVyq\/Uzc4nJEMrFoh5f.","ciudad":null,"provincia":null,"codigopostal":null,"terminos":null},{"nombre":null,"apellido":null,"usuario":"leonardolopez@live.com.ar","password":"$2y$10$oKHzYw7C7be45MEljyLMG.ygNVyuxXarVuhk3z\/s.JbGUs8WXYPkG","confirmar":"$2y$10$4mD8\/7upZZ5x8FQxZRIzSe5fhOXBD3voQp9elE6.hr76XWYm34SDe","ciudad":null,"provincia":null,"codigopostal":null,"terminos":null}
+]

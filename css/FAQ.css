@@ -1,0 +1,19 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.cuota {
+  display: block;
+
+}
+
+.contenido {
+    color: white;
+    background-color: rgba(15, 13, 13, 0.3);
+}
+
+
+h2 {
+    text-align: center;
+    color: #000;
+}

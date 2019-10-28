@@ -1,0 +1,29 @@
+.table.table-light.table-bordered {
+    border: 10px solid;
+    background-color: rgba(37, 23, 23, 0.7);
+}
+
+tr {
+    color: white
+}
+
+ .desc {
+width: 40%
+ }
+
+ .cant {
+     width: 15%
+ }
+
+ .pres,
+ .tot {
+width: 20%
+ }
+
+  .fin {
+width: 5%
+ }
+
+ .btn {
+     width: 5%
+ }

@@ -1,0 +1,185 @@
+
+/* -- Mobile -- */
+
+@media (min-width: 350px) {
+
+  .container .centro{
+    text-align: center;
+    background: #D3A7EF;
+    padding: 10px 0;
+  }
+
+  .container .logo img{
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .container .logo{
+    text-align: center;
+    background: #C074F1;
+    padding: 10px 0;
+  }
+
+  .container .izq{
+    text-align: center;
+    background: #DEC2F0;
+    padding: 10px 0;
+  }
+
+  .container .centro nav ul{
+    padding-left: 0;
+
+  }
+
+  .container .centro nav ul li{
+    list-style-type: none;
+    padding: 3px 0;
+  }
+
+  .container .centro nav ul li a{
+    color: #000;
+    font-family: bold;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .container .izq nav ul{
+    padding-left: 0;
+
+  }
+
+  .container .izq nav ul li{
+    list-style-type: none;
+    padding: 3px 0;
+  }
+
+  .container .izq nav ul li a{
+    color: #000;
+    font-family: bold;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .container .buscar{
+    text-align: center;
+    background: #ECDFF3;
+    padding: 5px 0;
+  }
+
+
+  .container .titulo1{
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+    color: red;
+  }
+
+  .container .producto {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .container .producto a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+  }
+
+
+/* -- Tablets -- */
+
+@media (min-width: 680px) {
+
+
+  .header{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+      .header .logo{
+        text-align: center;
+        flex: 1 1 50%;
+      }
+
+      .header .centro{
+        text-align: center;
+        flex: 1 1 50%;
+        position: relative;
+      }
+
+          .header .centro nav ul{
+            position: absolute;
+            top: 15%;
+            left: 38%;
+          }
+
+      .header .izq{
+        flex: 1 1 100%;
+      }
+
+      .header .buscar{
+        flex: 1 1 100%;
+        background: #DEB3F5;
+      }
+
+/*-- Desktop --*/
+
+@media (min-width: 1000px) {
+
+
+  .header{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+      .header .logo{
+        text-align: center;
+        flex: 1 1 20%;
+      }
+
+      .header .centro{
+        text-align: center;
+        flex: 1 1 35%;
+        position: relative;
+        background: #C074F1;
+      }
+
+          .header .centro nav ul{
+            overflow: hidden;
+            position: absolute;
+            top: 40%;
+            left: 20%;
+          }
+
+              .header .centro nav ul li{
+                float: left;
+                padding: 0 8px;
+              }
+
+                  .header .centro nav ul li a{
+                    align-items: center;
+                  }
+
+      .header .izq{
+        flex: 1 1 35%;
+        position: relative;
+        background: #C074F1;
+        text-align: center;
+      }
+
+          .header .izq nav ul{
+            overflow: hidden;
+            position: absolute;
+            top: 40%;
+            left: 20%;
+          }
+
+              .header .izq nav ul li{
+                float: left;
+                padding: 0 8px;
+              }
+
+
+}

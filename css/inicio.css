@@ -1,0 +1,22 @@
+/*--General--*/
+
+.principal .titulo1{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  color: #000;
+}
+
+.principal .producto{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  background: #fff;
+}
+
+.principal .producto a{
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}

@@ -1,0 +1,179 @@
+/* -- Mobile -- */
+@media (min-width: 350px) {
+
+  .header .centro{
+    text-align: center;
+    background: #550455;
+    padding: 10px 0;
+  }
+
+  .header .logo h2{
+    color: #fff;
+  }
+
+  .header .logo{
+    text-align: center;
+    background: #550455;
+    padding: 10px 0;
+  }
+
+  .header .izq{
+    text-align: center;
+    background: #550455;
+    padding: 10px 0;
+  }
+
+  .header .centro nav ul{
+    padding-left: 0;
+
+  }
+
+  .header .centro nav ul li{
+    list-style-type: none;
+    padding: 3px 0;
+  }
+
+  .header .centro nav ul li a{
+    color: #fff;
+    font-family: bold;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .header .izq nav ul{
+    padding-left: 0;
+
+  }
+
+  .header .izq nav ul li{
+    list-style-type: none;
+    padding: 3px 0;
+  }
+
+  .header .izq nav ul li a{
+    color: #fff;
+    font-family: bold;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .header .buscar{
+    text-align: center;
+    background: #ECDFF3;
+    padding: 5px 0;
+  }
+
+
+/* -- Tablets -- */
+
+@media (min-width: 680px) {
+
+
+  .header{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+      .header .logo{
+        text-align: center;
+        flex: 1 1 50%;
+      }
+
+      .header .centro{
+        text-align: center;
+        flex: 1 1 50%;
+        position: relative;
+      }
+
+          .header .centro nav ul{
+            overflow: hidden;
+            position: absolute;
+            top: 18%;
+            left: 38%;
+          }
+
+            .header .centro nav ul li{
+              float: left;
+              padding-right: 10px;
+            }
+
+      .header .izq{
+        flex: 1 1 100%;
+      }
+
+          .header .izq nav ul{
+            overflow: hidden;
+            position: relative;
+            left: 38%;
+          }
+
+              .header .izq nav ul li{
+                float: left;
+                padding-right: 10px;
+              }
+
+      .header .buscar{
+        flex: 1 1 100%;
+        background: #DEB3F5;
+      }
+
+/*-- Desktop --*/
+
+@media (min-width: 1000px) {
+
+
+  .header{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+      .header .logo{
+        text-align: center;
+        flex: 1 1 20%;
+        background: #550455;
+      }
+
+      .header .centro{
+        text-align: center;
+        flex: 1 1 35%;
+        position: relative;
+        background: #550455;
+      }
+
+          .header .centro nav ul{
+            overflow: hidden;
+            position: absolute;
+            top: 28%;
+            left: 20%;
+          }
+
+              .header .centro nav ul li{
+                float: left;
+                padding: 0 8px;
+              }
+
+                  .header .centro nav ul li a{
+                    align-items: center;
+                  }
+
+      .header .izq{
+        flex: 1 1 35%;
+        position: relative;
+        background: #550455;
+        text-align: center;
+      }
+
+          .header .izq nav ul{
+            overflow: hidden;
+            position: absolute;
+            top: 28%;
+            left: 20%;
+          }
+
+              .header .izq nav ul li{
+                float: left;
+                padding: 0 8px;
+              }
+
+
+}
