@@ -16,8 +16,8 @@
     <script src="https://kit.fontawesome.com/1c8209e2c4.js"></script>
 
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/inicio.css">
 
   </head>
   <body>
@@ -34,15 +34,15 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/slider-vino.jpg" class="d-block w-100" alt="imagen">
+                <img src="../img/slider-vino.jpg" class="d-block w-100" alt="imagen">
                 <div class="carousel-caption d-none d-md-block"></div>
               </div>
               <div class="carousel-item">
-                <img src="img/slider-vino.jpg" class="d-block w-100" alt="imagen">
+                <img src="../img/slider-vino.jpg" class="d-block w-100" alt="imagen">
                 <div class="carousel-caption d-none d-md-block"></div>
               </div>
               <div class="carousel-item">
-                <img src="img/slider-vino.jpg" class="d-block w-100" alt="imagen">
+                <img src="../img/slider-vino.jpg" class="d-block w-100" alt="imagen">
                 <div class="carousel-caption d-none d-md-block"></div>
               </div>
             </div>
@@ -61,55 +61,55 @@
       <div class="principal">
         <div class="row text-xs-center">
           <div class="thumbnail producto clearfix col-md-4 col-sm-6 my-2 py-2">
-            <img src="img/1.jpg" alt="imagen" class="img-fluid">
+            <img src="../img/1.jpg" alt="imagen" class="img-fluid">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Ex minus numquam natus commodi ipsam recusandae modi sint magnam.</p>
-            <a class="text-white btn btn-primary text-decoration-none" href="producto.php"><?=$productos?></a>
+            <a class="text-white btn btn-primary text-decoration-none" href="../producto/producto.php"><?=$productos?></a>
           </div>
           <div class="thumbnail producto clearfix col-md-4 col-sm-6 my-2 py-2">
-            <img src="img/1.jpg" alt="imagen" class="img-fluid">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Ex minus numquam natus commodi ipsam recusandae modi sint magnam.</p>
-            <button type="button" class="btn btn-primary" name="button">Ver más</button>
-          </div>
-          <div class="thumbnail producto clearfix col-md-4 col-sm-6 my-2 py-2">
-            <img src="img/1.jpg" alt="imagen" class="img-fluid">
+            <img src="../img/1.jpg" alt="imagen" class="img-fluid">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Ex minus numquam natus commodi ipsam recusandae modi sint magnam.</p>
             <button type="button" class="btn btn-primary" name="button">Ver más</button>
           </div>
           <div class="thumbnail producto clearfix col-md-4 col-sm-6 my-2 py-2">
-            <img src="img/1.jpg" alt="imagen" class="img-fluid">
+            <img src="../img/1.jpg" alt="imagen" class="img-fluid">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Ex minus numquam natus commodi ipsam recusandae modi sint magnam.</p>
             <button type="button" class="btn btn-primary" name="button">Ver más</button>
           </div>
           <div class="thumbnail producto clearfix col-md-4 col-sm-6 my-2 py-2">
-            <img src="img/1.jpg" alt="imagen" class="img-fluid">
+            <img src="../img/1.jpg" alt="imagen" class="img-fluid">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Ex minus numquam natus commodi ipsam recusandae modi sint magnam.</p>
             <button type="button" class="btn btn-primary" name="button">Ver más</button>
           </div>
           <div class="thumbnail producto clearfix col-md-4 col-sm-6 my-2 py-2">
-            <img src="img/1.jpg" alt="imagen" class="img-fluid">
+            <img src="../img/1.jpg" alt="imagen" class="img-fluid">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Ex minus numquam natus commodi ipsam recusandae modi sint magnam.</p>
             <button type="button" class="btn btn-primary" name="button">Ver más</button>
           </div>
           <div class="thumbnail producto clearfix col-md-4 col-sm-6 my-2 py-2">
-            <img src="img/1.jpg" alt="imagen" class="img-fluid">
+            <img src="../img/1.jpg" alt="imagen" class="img-fluid">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Ex minus numquam natus commodi ipsam recusandae modi sint magnam.</p>
             <button type="button" class="btn btn-primary" name="button">Ver más</button>
           </div>
           <div class="thumbnail producto clearfix col-md-4 col-sm-6 my-2 py-2">
-            <img src="img/1.jpg" alt="imagen" class="img-fluid">
+            <img src="../img/1.jpg" alt="imagen" class="img-fluid">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Ex minus numquam natus commodi ipsam recusandae modi sint magnam.</p>
             <button type="button" class="btn btn-primary" name="button">Ver más</button>
           </div>
           <div class="thumbnail producto clearfix col-md-4 col-sm-6 my-2 py-2">
-            <img src="img/1.jpg" alt="imagen" class="img-fluid">
+            <img src="../img/1.jpg" alt="imagen" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Ex minus numquam natus commodi ipsam recusandae modi sint magnam.</p>
+            <button type="button" class="btn btn-primary" name="button">Ver más</button>
+          </div>
+          <div class="thumbnail producto clearfix col-md-4 col-sm-6 my-2 py-2">
+            <img src="../img/1.jpg" alt="imagen" class="img-fluid">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Ex minus numquam natus commodi ipsam recusandae modi sint magnam.</p>
             <button type="button" class="btn btn-primary" name="button">Ver más</button>

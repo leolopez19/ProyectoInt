@@ -28,17 +28,17 @@ $compras = "";
           <nav>
             <ul>
               <li>
-                <a href="inicio.php">
+                <a href="../general/inicio.php">
                   <?=$variable1?>
                 </a>
               </li>
               <li>
-                <a href="faq.php">
+                <a href="../general/faq.php">
                   <?=$variable2?>
                 </a>
               </li>
               <li>
-                <a href="contacto2.php">
+                <a href="../general/contacto2.php">
                   <?=$variable3?>
                 </a>
               </li>
@@ -50,19 +50,19 @@ $compras = "";
           <nav>
             <ul>
                           <li>
-                <a href="registro1.php">
+                <a href="../usuario/registro1.php">
                   <?=$registracion?>
                 </a>
               </li>
               <li>
-                <a href="login.php">
+                <a href="../usuario/login.php">
                   <?=$logueado?>
                 </a>
               </li>
        
               <li>
              
-                <a href="carrito.php"><span><i class="fas fa-shopping-cart"></i></span>
+                <a href="../producto/carrito.php"><span><i class="fas fa-shopping-cart"></i></span>
                   <?=$compras?>
                 </a>
               </li>

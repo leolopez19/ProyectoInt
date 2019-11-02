@@ -1,6 +1,6 @@
 <?php
 function verificardatos ($dato1, $dato2) {
-    $archivo = "usuarios.json";
+    $archivo = "../json/usuarios.json";
     $traigoJson = file_get_contents($archivo);
     if ($traigoJson) {
         $exito = true;

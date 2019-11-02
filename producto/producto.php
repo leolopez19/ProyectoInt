@@ -12,13 +12,13 @@
     <script src="https://kit.fontawesome.com/1c8209e2c4.js"></script>
 
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/producto.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="../css/producto.css">
+    <link rel="stylesheet" href="../css/header.css">
     <title>Producto</title>
   </head>
   <body>
 
-    <?php require_once("header.php") ?>
+    <?php require_once("../general/header.php") ?>
 
     <!-- Contenido -->
     <div class="cuerpo">
@@ -27,7 +27,7 @@
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                   <div class="carousel-item active">
-                      <img src="img/Altas-Cumbres-Sauvignon-Blanc.png" class="d-block w-100" alt="Imagen">
+                      <img src="../img/Altas-Cumbres-Sauvignon-Blanc.png" class="d-block w-100" alt="Imagen">
                   </div>
               </div>
             </div>
@@ -48,7 +48,7 @@
           </div>
         </div>
       </div>
-      <?php require_once("footer.php") ?>
+      <?php require_once("../general/footer.php") ?>
       <!-- Fin de contenido -->
 
     <!-- Optional JavaScript -->

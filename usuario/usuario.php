@@ -27,13 +27,13 @@ ini_set('error_reporting',0);
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/1c8209e2c4.js"></script>
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/usuario.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/usuario.css">
     <title>Modificar perfil</title>
   </head>
   <body>
 
-    <?php require_once("header.php") ?>
+    <?php require_once("../general/header.php") ?>
       <div class="px-0 cuerpo">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mb-5 mt-3">
@@ -111,10 +111,10 @@ ini_set('error_reporting',0);
                 <input type="submit" class="btn btn-danger btn-lg mr-3" name="cancel" value="Borrar">
               </div>
           </div>
-          <?php require_once("validarusuario.php") ?>
+          <?php require_once("../funciones/validarusuario.php") ?>
         </form>
       </div>
-        <?php require_once("footer.php") ?>
+        <?php require_once("../general/footer.php") ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

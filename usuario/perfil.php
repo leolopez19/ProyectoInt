@@ -14,6 +14,6 @@ $datosDeUsuario= $_SESSION ["usuario"];
 </head>
 <body>
 BIENVENIDO <?=$datosDeUsuario?>
-<a href="cerrar_session.php">Cerrar sesion</a>
+<a href="../funciones/cerrar_session.php">Cerrar sesion</a>
 </body>
 </html>

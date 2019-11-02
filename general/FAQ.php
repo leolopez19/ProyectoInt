@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
-    <link rel="stylesheet" href="css/faq.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="../css/faq.css">
+    <link rel="stylesheet" href="../css/header.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">

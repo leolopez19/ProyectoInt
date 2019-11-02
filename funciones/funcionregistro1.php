@@ -13,7 +13,7 @@
       "terminos"=> $_POST["terminos"]
      ];
 
-     $archivo = "usuarios.json";
+     $archivo = "../json/usuarios.json";
      $traigoJson = file_get_contents($archivo); //Este ya es universal, solo se cambia el registro.json
      $jsonArray = json_decode($traigoJson, true);
      $jsonArray[] = $usuarios;
@@ -21,11 +21,11 @@
      file_put_contents($archivo, $json);
 
      $_SESSION[$usuarios] = $_POST ["email"]; 
-    header ('location: login.php');
+    header ('location: ../general/login.php');
 
  }
  else {
-    header ('location: registro1.php');
+    header ('location: ../usuario/registro1.php');
  }
 
 

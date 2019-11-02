@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/login.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -15,14 +15,14 @@
     <title>Login</title>
   </head>
   <body>
-    <?php require_once("header.php") ?>
+    <?php require_once("../general/header.php") ?>
     <div class="conten">
       <div class="row">
         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
           <div class="card card-signin my-5">
             <div class="card-body">
               <h5 class="card-title text-center">Inicio de Sesión</h5>
-              <form class="form-signin" action="procesarlogin.php" method="POST">
+              <form class="form-signin" action="../funciones/procesarlogin.php" method="POST">
                 <div class="form-label-group">
                   <input type="email" id="email" name="email" class="form-control rounded-pill" required autofocus>
                   <label for="email">Email</label>
@@ -45,6 +45,6 @@
         </div>
       </div>
     </div>
-    <?php require_once("footer.php") ?>
+    <?php require_once("../general/footer.php") ?>
   </body>
 </html>

@@ -1,7 +1,7 @@
 <?php
   function guardarDatos($datos) {
     $json = json_encode($datos);
-    file_put_contents("usuarios.json", $json, FILE_APPEND | LOCK_EX);
+    file_put_contents("../json/usuarios.json", $json, FILE_APPEND | LOCK_EX);
   }
 
   $personas = array();

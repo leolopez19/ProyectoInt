@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Main CSS-->
-    <link rel="stylesheet" href="css/carrito.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="../css/carrito.css">
+    <link rel="stylesheet" href="../css/header.css">
     <!--Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -18,7 +18,7 @@
 </head>
 <body>
 
-  <?php require_once("header.php") ?>
+  <?php require_once("../general/header.php") ?>
     <div class="container">
         <h2 class="margin py-2 mt-2">Lista del Carrito</h2>
     </div>
@@ -75,6 +75,6 @@
               </tbody>
             </table>
           </div>
-        <?php require_once("footer.php") ?>
+        <?php require_once("../general/footer.php") ?>
       </body>
     </html>
