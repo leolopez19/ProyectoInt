@@ -3,23 +3,19 @@
 
     $nombre = "";
     $apellido = "";
-    $usuario = "";
+    $email = "";
     $password = "";
-    $confirmar = "";
-    $ciudad = "";
-    $provincia = "";
-    $codigopostal = "";
+    $usuario = "";
+    $telefono = "";
 
 
   if(isset($_POST)) {
     $nombre = $_POST["nombre"];
     $apellido = $_POST["apellido"];
-    $usuario = $_POST["email"];
+    $email = $_POST["email"];
     $password = $_POST["password"];
-    $confirmar = $_POST["confirmar"];
-    $ciudad = $_POST["ciudad"];
-    $provincia = $_POST["provincia"];
-    $codigopostal = $_POST["codigopostal"];
+    $usuario = $_POST["usuario"];
+    $telefono = $_POST["telefono"];
     $terminos = $_POST["terminos"];
   }
  ?>
@@ -45,7 +41,7 @@
 
     <div class="caja py-5 px-3">
         <h2>REGISTRO</h2>
-        <form action="registro1.php"  method="POST" class="needs-validation" novalidate>
+        <form action="validarregistro1.php"  method="POST" class="needs-validation" novalidate>
             <div class="form-row">
               <div class="col-md-4 mb-3">
                 <label for="nombre">Nombre</label>
@@ -56,37 +52,32 @@
                 <input type="text" name="apellido" value="<?=$apellido?>" class="form-control" id="apellido" placeholder="Apellido" required>
               </div>
               <div class="col-md-4 mb-3">
-                <label for="usuario">Usuario</label>
+                <label for="usuario">Email</label>
                 <div class="input-group">
                   <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroupPrepen">@</span>
+                    
                   </div>
-                  <input type="text" name="email" value="<?=$usuario?>" class="form-control" id="usuario" placeholder="Usuario" aria-describedby="inputGroupPrepend" required>
+                  <input type="text" name="email" value="<?=$email?>" class="form-control" id="email" placeholder="Email" aria-describedby="inputGroupPrepend" required>
                 </div>
               </div>
             </div>
+
+            <div class="form-group" id="contra2">
+                <label for="confirmar">Usuario</label>
+                <input type="text" id="usuario" name="usuario" value="<?=$usuario?>" class="form-control" aria-describedby="passwordHelpInline">
+                <small id="confi" class="text-muted"></small>
+              </div>
+
             <div class="form-group">
                 <label for="password">Contraseña</label>
                 <input type="password" id="password" name="password" value="<?=$password?>" class="form-control" aria-describedby="passwordHelpInline">
                 <small id="pass" class="text-muted"></small>
               </div>
-              <div class="form-group" id="contra2">
-                <label for="confirmar">Confirmar</label>
-                <input type="password" id="confirmar" name="confirmar" value="<?=$confirmar?>" class="form-control" aria-describedby="passwordHelpInline">
-                <small id="confi" class="text-muted"></small>
-              </div>
-            <div class="form-row">
-              <div class="col-md-6 mb-3">
-                <label for="ciudad">Ciudad</label>
-                <input type="text" name="ciudad" value="<?=$ciudad?>" class="form-control" id="ciudad" placeholder="Ciudad" required>
-              </div>
+              
+            
               <div class="col-md-3 mb-3">
-                <label for="provincia">Provincia</label>
-                <input type="text" name="provincia" value="<?=$provincia?>" class="form-control" id="provincia" placeholder="Provincia" required>
-              </div>
-              <div class="col-md-3 mb-3">
-                <label for="codigopostal">Codigo postal</label>
-                <input type="text" name="codigopostal" value="<?=$codigopostal?>" class="form-control" id="codigopostal" placeholder="Codigo" required>
+                <label for="codigopostal">Telefono</label>
+                <input type="text" name="telefono" value="<?=$telefono?>" class="form-control" id="telefono" placeholder="Telefono" required>
               </div>
             </div>
             <div class="form-group">

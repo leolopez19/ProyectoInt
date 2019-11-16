@@ -25,7 +25,7 @@ function validarRegistro($datos){
       echo "Las contraseñas no verifican <br>";
     }
 
-    if(strlen($_POST["ciudad"]) == 0) {
+    /*if(strlen($_POST["ciudad"]) == 0) {
       echo "No completaste ciudad <br>";
     }
     if(strlen($_POST["provincia"]) == 0) {
@@ -33,7 +33,7 @@ function validarRegistro($datos){
     }
     if(is_numeric($_POST["codigopostal"]) == false) {
       echo "El código debe ser numérico <br>";
-    }
+    }*/
     if($_POST["terminos"] == "") {
       echo "No aceptaste los términos y condiciones <br>";
     }

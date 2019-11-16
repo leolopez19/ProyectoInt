@@ -1,3 +1,37 @@
+
+<?php
+
+/*session_start();
+	require("../cn.php");
+
+$username=$_POST ["email"];
+$pass=$_POST ["password"];
+
+$sql=mysqli_query($mysqli,"SELECT * FROM login WHERE email='$username'");
+	if($f=mysqli_fetch_assoc($sql)){
+		if($pass==$f['password']){
+			$_SESSION['id']=$f['id'];
+
+			header("Location: index2.php");
+		}else{
+			echo '<script>alert("CONTRASEÑA INCORRECTA")</script> ';
+		
+			echo "<script>location.href='index.php'</script>";
+		}
+	}else{
+		
+		echo '<script>alert("ESTE USUARIO NO EXISTE, PORFAVOR REGISTRESE PARA PODER INGRESAR")</script> ';
+		
+		echo "<script>location.href='index.php'</script>";	
+
+	}
+*/
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
@@ -22,7 +56,7 @@
           <div class="card card-signin my-5">
             <div class="card-body">
               <h5 class="card-title text-center">Inicio de Sesión</h5>
-              <form class="form-signin" action="../funciones/procesarlogin.php" method="POST">
+              <form class="form-signin" action="validarlogin1.php" method="POST">
                 <div class="form-label-group">
                   <input type="email" id="email" name="email" class="form-control rounded-pill" required autofocus>
                   <label for="email">Email</label>
